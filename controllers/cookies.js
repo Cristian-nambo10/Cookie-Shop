@@ -1,8 +1,12 @@
-const router = require('express').Router();
+// Dependencies
+const express = require('express');
 const Cookie = require('../models/cookies');
 
+// Router Object init
+const router = express.Router();
+
 //Seed
-const seed = require('../models/cookie')
+const seed = require('../models/seed')
 
 router.get('/seed', (req, res) => {
     Cookie.deleteMany({}, (err, allCookie) => {});
@@ -18,12 +22,12 @@ router.get('/seed', (req, res) => {
 
 // I
 router.get('/', (req, res) => {
-    Cookie.find({}, (err, foundCookie) => {
+    Cookie.find({}, (err, allCookie) => {
         res.render('options/index.ejs', {
-            cookies: foundCookie
-        })
-    })
-})
+            cookies: allCookie,
+        });
+    });
+});
 
 // N
 
