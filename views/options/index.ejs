@@ -22,20 +22,21 @@
 
             <div class="container">
                 <ul>
+
                     <% cookies.forEach(cookies => { %>
                     <li>
                         <a href="/cookies/<%= cookies._id %> ">
-
                          </a>
-                    </li>
-                    <a href="/">
-                    <!-- <img src="<%= cookies.img %>" alt="n/a"> -->
+
+                         <a href="/cookies/<%= cookies._id %> ">
+                    <img src="<%= cookies.img %>" alt="n/a" class="image">
                 </a>
-                    <h2><%= cookies.name %> </h2>
-                    <p><%= cookies.calories %> </p>
-                    <p><%= cookies.protein %> </p>
+
+                    </li>
+                    <li><h2><%= cookies.name %> </h2></li>
+                    
                    <% }) %> 
-                    <!-- <img src="https://sugarspunrun.com/wp-content/uploads/2018/11/worst-chocolate-chip-cookie-recipe-1-of-1.jpg" alt="" class="image"> -->
+
 
                 </ul>
 

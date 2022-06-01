@@ -40,6 +40,13 @@ router.get('/', (req, res) => {
 // E
 
 // S
+router.get('/:id', (req, res) => {
+    Cookie.findById(req.params.id, (err, foundCookie) => {
+        res.render('options/show.ejs', {
+            cookies: foundCookie
+        })
+    })
+})
 
 
 // Export module

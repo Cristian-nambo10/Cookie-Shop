@@ -36,18 +36,23 @@ h1 {
 h2 {
     font-size: 30px;
     margin-bottom: 400px;
+    margin-left: 50px;
 }
 
 ul {
     display: flex;
+    flex-direction: row;
 }
 
 li {
-    padding-left: 16px;
+    padding-left: 10px;
     list-style-type: none;
 }
 
 .image {
-    width: 15%;
-    height: 10%;
+    width: 500px;
+    max-width: 100%;
+   margin-top: 200px;
 }
+
+
