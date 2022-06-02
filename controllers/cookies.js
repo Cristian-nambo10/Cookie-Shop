@@ -35,7 +35,11 @@ router.get('/new', (req, res) => {
 })
 
 // Delete
-
+router.delete('/:id', (req, res) => {
+    Cookie.findByIdAndDelete(req.params.id, () => {
+        res.redirect('/cookies');
+    })
+})
 
 // Update
 router.put('/:id', (req, res) => {

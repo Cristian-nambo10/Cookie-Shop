@@ -2,7 +2,7 @@ module.exports = [
     {
         name: 'Choclate Chip Delight',
         description: 'Simmplistic but delightful chocolate chip cookie.',
-        img: 'https://images.unsplash.com/photo-1600431562968-ef337c8733ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80',
+        img: 'https://images.unsplash.com/photo-1600431562968-ef337c8733ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3774&q=80',
         calories: 100,
         fats: 10,
         protein: 15

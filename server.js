@@ -32,6 +32,10 @@ app.get('/', (req, res) => {
     res.render('index.ejs');
 })
 
+app.get('/contact', (req, res) => {
+    res.send('hi')
+})
+
 
 
 
