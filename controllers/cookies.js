@@ -38,6 +38,13 @@ router.get('/', (req, res) => {
 // C
 
 // E
+router.get('/:id/edit', (req, res) => {
+    Cookie.findById(req.params.id, (err, foundCookie) => {
+        res.render('options/edit.ejs', {
+            cookies: foundCookie
+        })
+    })
+})
 
 // S
 router.get('/:id', (req, res) => {

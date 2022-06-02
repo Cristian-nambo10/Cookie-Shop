@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/assets/skeleton.css">
     <title>Document</title>
 </head>
 <body>
-    <h1>hi</h1>
+    <div class="container">
+
+        <h1><%= cookies.name %> </h1>
+        <img src="<%= cookies.img %> " alt="cookie" class="img">
+
+        <table>
+            <tr>
+                <td>
+                    <h3>Description: </h3>
+                    <%= cookies.description %> 
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>Calories:</h3>
+                    <%= cookies.calories %> 
+                </td>
+
+                <td>
+                    <h3>Fats:</h3>
+                    <%= cookies.fats %> 
+                </td>
+
+            </tr>
+
+            <tr>
+                <td>
+                    <h3>Protein:</h3>
+                    <%= cookies.protein %> 
+                </td>
+                <td> 
+                <a href="/cookies">Back</a>
+                <a href="/cookies/<%= cookies._id %>/edit ">Edit</a>
+                </td>
+            </tr>
+        </table>
+
+    </div>
 </body>
 </html>

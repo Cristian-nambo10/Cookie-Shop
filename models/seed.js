@@ -23,7 +23,7 @@ module.exports = [
     }, {
         name: 'The classic Sugar Cookie',
         description: 'A fan favorite, really sweet and asthetic!',
-        img: 'https://images.pexels.com/photos/162813/cookies-milk-cookies-milk-drink-162813.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+        img: 'https://images.pexels.com/photos/310575/pexels-photo-310575.jpeg',
         calories: 190,
         fats: 18,
         protein: 8

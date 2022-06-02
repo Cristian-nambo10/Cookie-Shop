@@ -29,6 +29,7 @@
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .container {
+  background-image: linear-gradient(#C4A484, #704214);
   position: relative;
   width: 100%;
   max-width: 960px;
@@ -162,6 +163,12 @@ a {
 a:hover {
   color: #0FA0CE; }
 
+  .img {
+    width: 20vw;
+    height: 40vh;
+    margin-left: 10px;
+    box-shadow: 5px 5px;
+  }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -173,7 +180,7 @@ input[type="button"] {
   display: inline-block;
   height: 38px;
   padding: 0 30px;
-  color: #555;
+  color: white;
   text-align: center;
   font-size: 11px;
   font-weight: 600;
@@ -197,7 +204,7 @@ button:focus,
 input[type="submit"]:focus,
 input[type="reset"]:focus,
 input[type="button"]:focus {
-  color: #333;
+  color: lightgreen;
   border-color: #888;
   outline: 0; }
 .button.button-primary,
