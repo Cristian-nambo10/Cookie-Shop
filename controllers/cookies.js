@@ -33,7 +33,12 @@ router.get('/', (req, res) => {
 
 // D
 
-// U
+// Update
+router.put('/:id', (req, res) => {
+    Cookie.findByIdAndUpdate(req.params.id, req.body, () => {
+        res.redirect('/cookies')
+    })
+})
 
 // C
 
