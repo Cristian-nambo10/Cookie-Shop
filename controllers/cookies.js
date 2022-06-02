@@ -29,9 +29,13 @@ router.get('/', (req, res) => {
     });
 });
 
-// N
+// New
+router.get('/new', (req, res) => {
+    res.render('options/new.ejs')
+})
 
-// D
+// Delete
+
 
 // Update
 router.put('/:id', (req, res) => {
@@ -41,6 +45,11 @@ router.put('/:id', (req, res) => {
 })
 
 // C
+router.post('/', (req, res) => {
+    Cookie.create(req.body, (err, createdCookie) => {
+        res.redirect('/cookies')
+    })
+})
 
 // E
 router.get('/:id/edit', (req, res) => {

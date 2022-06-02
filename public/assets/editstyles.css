@@ -9,3 +9,15 @@ h1 {
 body {
     background-color: #ADD8E6;
 }
+
+table {
+    margin-left: 10px;
+}
+
+.large {
+    font-size: 20px;
+}
+
+a {
+    margin-left: 10px;
+}

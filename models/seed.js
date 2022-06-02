@@ -2,7 +2,7 @@ module.exports = [
     {
         name: 'Choclate Chip Delight',
         description: 'Simmplistic but delightful chocolate chip cookie.',
-        img: 'https://assets.bonappetit.com/photos/5ca534485e96521ff23b382b/5:7/w_100,h_300,c_limit/chocolate-chip-cookie.jpg',
+        img: 'https://images.unsplash.com/photo-1600431562968-ef337c8733ed?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80',
         calories: 100,
         fats: 10,
         protein: 15

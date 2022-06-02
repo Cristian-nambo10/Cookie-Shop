@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/public/assets/skeleton.css">
     <link rel="stylesheet" href="/public/assets/editstyles.css">
-    <title>Document</title>
+    <title>Cookie Shop</title>
 </head>
 <body>
     <div class="container">
@@ -40,13 +40,14 @@
                     <h3>Protein:</h3>
                     <%= cookies.protein %> 
                 </td>
-                <td> 
-                <a href="/cookies">Back</a>
+            </tr>
+            <tr>
+                <td class="large">
                 <a href="/cookies/<%= cookies._id %>/edit ">Edit</a>
                 </td>
             </tr>
         </table>
-
+        <a class="large" href="/cookies">Back</a>
     </div>
 </body>
 </html>
