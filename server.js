@@ -9,7 +9,7 @@ require('dotenv').config();
 const mongoose = require('mongoose');
 
 // Database Config
-mongoose.connect(process.env.DATABASE_URI, {
+mongoose.connect(process.env.MONGODB_URI, {
     useUnifiedTopology: true,
 });
 
