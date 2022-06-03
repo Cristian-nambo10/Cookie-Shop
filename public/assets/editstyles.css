@@ -25,3 +25,7 @@ a {
 .delete {
     margin-top: 10px;
 }
+
+h3, input {
+    margin-left: 10px;
+}

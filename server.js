@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/contact', (req, res) => {
-    res.send('hi')
+    res.render('options/contact.ejs')
 })
 
 
