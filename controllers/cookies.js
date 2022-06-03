@@ -48,14 +48,14 @@ router.put('/:id', (req, res) => {
     })
 })
 
-// C
+// Create
 router.post('/', (req, res) => {
     Cookie.create(req.body, (err, createdCookie) => {
         res.redirect('/cookies')
     })
 })
 
-// E
+// Edit
 router.get('/:id/edit', (req, res) => {
     Cookie.findById(req.params.id, (err, foundCookie) => {
         res.render('options/edit.ejs', {
@@ -64,7 +64,7 @@ router.get('/:id/edit', (req, res) => {
     })
 })
 
-// S
+// Show
 router.get('/:id', (req, res) => {
     Cookie.findById(req.params.id, (err, foundCookie) => {
         res.render('options/show.ejs', {

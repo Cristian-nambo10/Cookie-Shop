@@ -21,7 +21,7 @@ a {
 }
 
 header {
-    background-color: #704214;
+    background-image: linear-gradient(#704214, #C4A484);
     height: calc(100vh - 70px);
     padding: 24px;
     display: flex;
