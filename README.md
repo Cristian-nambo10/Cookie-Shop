@@ -11,9 +11,8 @@
 
 ## Application Images
 ---
-[![Cookie1.png](https://i.postimg.cc/CLCVf4Ly/Cookie1.png)](https://postimg.cc/RN0YkKHG)
-
-[![Cookie2.png](https://i.postimg.cc/LhK08GZq/Cookie2.png)](https://postimg.cc/sGmJn6my)
+[![photo1.png](https://i.postimg.cc/CKWKFPrt/photo1.png)](https://postimg.cc/jW4TcXbQ)
+[![photo2.png](https://i.postimg.cc/TPWRHj2c/photo2.png)](https://postimg.cc/DWnkSXXW)
 
 ## Connect to Application Here
 ---
@@ -23,3 +22,5 @@
 ---
 - Add a Buy Now Option that adds to cart
 - More user friendly CSS Styling 
+- Add a Light / Dark mode 
+- Single User Auth connection
